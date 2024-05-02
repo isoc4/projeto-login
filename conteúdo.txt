@@ -1,0 +1,13 @@
+um background
+
+a imagem da mulher do lado direito
+(na versão de dispositivos maiores)
+
+sem a imagem da mulher em dispositivos menores
+
+tela de login com: nome de usuário, senha e e-mail
+
+rodapé
+
+tentar dar funcionalidade ao formulário
+(com javascript)

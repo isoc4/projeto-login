@@ -1,0 +1,5 @@
+Cor Pana: #FF725E
+Cor Laranja BG: #E48801
+Cor Cinza BG: #212121
+Azul Verde Escuro: #0F7173
+Verde Clarinho: #DDFCAD
