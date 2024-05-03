@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="style/tabl_and_lands.css">
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="style/pc.css">
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="style/tv.css">
+</head>
+<body>
+    <main>
+        <section>
+            <img src="imagem/Secure login-pana.png" alt="">
+
+            <div id="formulario" >
+
+                <p id="emoji">&#x1F464;</p>
+
+                <h1>Login</h1>
+                <p class="textosec">Bem vindo(a)</p>
+
+                <form action="login.php" autocomplete="on">
+
+                    <div class="caixadeinput" id="nome_de_usuario">
+
+                        <label for="iusu"></label>
+                        <input type="text" name="usu" id="iusu" required placeholder="  Nome de Usuário">
+
+                    </div>
+                    <div class="caixadeinput" id="email">
+
+                        <label for="ieml"></label>
+                        <input type="email" name="eml" id="ieml" required placeholder="  E-mail">
+
+                    </div>
+                    <div class="caixadeinput" id="senha">
+
+                        <label for="isen"></label>
+                        <input type="password" name="sen" id="isen" required placeholder="  Senha">
+
+                    </div>
+
+                    <a href="#">Esqueceu a Senha?</a>
+
+                    <div id="entrar">
+
+                        <input type="submit" value="Entrar">
+
+                    </div>
+
+                </form>
+
+                <p class="textosec" id="pcadastro">Novo aqui? Faça seu <a href="#">cadastro.</a></p>
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>
