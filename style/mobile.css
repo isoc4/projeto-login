@@ -52,7 +52,8 @@ img{
     width: 300px;
     height: 450px;
     border-radius: 50px 50px 50px 0px;
-    border: 5px solid #161616;
+    border: 3px solid #161616;
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.404);
     padding: 15px;
 }
 
@@ -64,7 +65,7 @@ img{
 }
 
 .textosec{
-    color: var(--cor05);
+    color: var(--cor01);
     text-align: center;
     font-size: 0.7em;
     font-weight: bold;
@@ -88,17 +89,21 @@ form{
     padding: 10px;
     margin: auto;
     width: 230px;
-    height: 240px;
+    height: 270px;
     border-radius: 15px;
 }
 
 input{
-    border-radius: 5px;
+    background-color: var(--cor03);
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
     border: none;
+    margin-bottom: 6px;
 }
 
 #pcadastro{
-    margin-top: 40px;
+    margin-top: 15px;
     font-weight: bold;
 }
 
@@ -117,7 +122,15 @@ input{
     border-radius: 20px;
     text-align: center;
     margin-bottom: 20px;
-    padding: 5px;
+    padding: 6px;
+}
+
+i{
+    background-color: #16161670;
+    color: var(--cor02);
+    width: 40px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 #nome_de_usuario{
@@ -136,11 +149,11 @@ input{
     background-color: #aa4c40;
     cursor: pointer;
     box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.315);
-    transition: 700ms;
+    transition: 400ms;
 }
 
 #senha{
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 form > a{
