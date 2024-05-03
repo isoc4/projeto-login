@@ -14,40 +14,46 @@
 <body>
     <main>
         <section>
-            <div id="formulario" >
+            <div id="caixalogin">
 
-                <img src="imagem/Secure login-pana.png" alt="">
+                <div id="divemojitexto">
 
-                <p id="emoji">&#x1F464;</p>
+                    <img src="imagem/Secure login-pana.png" alt="">
+                    <p id="emoji">&#x1F464;</p>
+                    <h1>Login</h1>
+                    <p class="textosec">Bem vindo(a)</p>
 
-                <h1>Login</h1>
-                <p class="textosec">Bem vindo(a)</p>
+                </div>
+
+                <div id="imagemfundo">
+
+                </div>
 
                 <form action="login.php" autocomplete="on">
 
                     <div class="caixadeinput" id="nome_de_usuario">
 
                         <i class="material-icons">person</i>
-                        <label for="iusu"></label>
                         <input type="text" name="usu" id="iusu" required placeholder="  Nome de Usuário">
+                        <label for="iusu"></label>
 
                     </div>
                     <div class="caixadeinput" id="email">
 
                         <i class="material-icons">mail</i>
-                        <label for="ieml"></label>
                         <input type="email" name="eml" id="ieml" required placeholder="  E-mail">
+                        <label for="ieml"></label>
 
                     </div>
                     <div class="caixadeinput" id="senha">
 
                         <i class="material-icons">key</i>
-                        <label for="isen"></label>
                         <input type="password" name="sen" id="isen" required placeholder="  Senha">
+                        <label for="isen"></label>
+                        <br>
+                        <a href="#">Esqueceu a Senha?</a>
 
                     </div>
-
-                    <a href="#">Esqueceu a Senha?</a>
 
                     <div id="entrar">
 
@@ -57,10 +63,11 @@
 
                 </form>
 
-                <p class="textosec" id="pcadastro">Novo aqui? Faça seu <a href="#">cadastro.</a></p>
-
             </div>
         </section>
+        <!--
+            <p class="textosec" id="pcadastro">Novo aqui? Faça seu <a href="#">cadastro.</a></p>
+        -->
     </main>
 </body>
 </html>

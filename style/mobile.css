@@ -19,18 +19,12 @@
 
 }
 
-html{
-    height: 100vh;
-}
-
-body{
-    background-color: rgb(77, 76, 76);
-}
-
-main{
+body, html{
     width: 100vw;
     height: 100vh;
-    background: url('../imagem/background1.jpg') no-repeat center center;
+    background-color: var(--cor02);
+    background-image: none;
+    background-position: center center;
     background-size: cover;
 }
 
@@ -38,11 +32,15 @@ section{
     position: relative;
 }
 
+#imagem{
+    display: none;
+}
+
 img{
     display: none;
 }
 
-#formulario{
+#caixalogin{
     position: absolute;
     left: 50%;
     top: 50vh;
@@ -55,9 +53,10 @@ img{
     border: 3px solid #161616;
     box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.404);
     padding: 15px;
+    transition: width 500ms;
 }
 
-#formulario h1{
+#caixalogin h1{
     color: var(--cor03);
     text-align: center;
     text-shadow: 3px 3px 4px #212121e1;
@@ -85,21 +84,18 @@ img{
 }
 
 form{
-    background-color: var(--cor07);
-    padding: 10px;
     margin: auto;
-    width: 230px;
-    height: 270px;
+    width: 270px;
     border-radius: 15px;
 }
 
 input{
-    background-color: var(--cor03);
+    background-color: var(--cor00);
     color: white;
     padding: 5px;
     border-radius: 8px;
     border: none;
-    margin-bottom: 6px;
+    margin-bottom: 15px;
 }
 
 #pcadastro{
@@ -118,19 +114,18 @@ input{
 
 .caixadeinput{
     margin: auto;
-    background-color: #CCF6FF;
+    background-color: var(--cor07);
     border-radius: 20px;
     text-align: center;
     margin-bottom: 20px;
-    padding: 6px;
 }
 
 i{
+    margin: 10px;
     background-color: #16161670;
     color: var(--cor02);
-    width: 40px;
+    width: 60px;
     border-radius: 20px;
-    overflow: hidden;
 }
 
 #nome_de_usuario{
@@ -138,8 +133,7 @@ i{
 }
 
 #entrar > input{
-    margin-left: 30px;
-    margin-top: 20px;
+    margin-left: 58px;
     background-color: var(--cor01);
     padding: 8px;
     width: 150px;
@@ -153,16 +147,16 @@ i{
 }
 
 #senha{
-    margin-bottom: 3px;
+    margin-bottom: 25px;
 }
 
-form > a{
+#senha > a{
     font-size: 0.6em;
     font-weight: bold;
     text-decoration: none;
     color: var(--cor05);
 }
 
-form > a:hover{
+#senha > a:hover{
     text-decoration: underline;
 }
