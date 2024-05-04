@@ -28,18 +28,6 @@ body, html{
     background-size: cover;
 }
 
-section{
-    position: relative;
-}
-
-#imagem{
-    display: none;
-}
-
-img{
-    display: none;
-}
-
 #caixalogin{
     position: absolute;
     left: 50%;
@@ -90,7 +78,7 @@ form{
 }
 
 input{
-    background-color: var(--cor00);
+    background: transparent;
     color: white;
     padding: 5px;
     border-radius: 8px;
@@ -98,8 +86,17 @@ input{
     margin-bottom: 15px;
 }
 
+input:focus{
+    outline: 0;
+}
+
 #pcadastro{
-    margin-top: 15px;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, 0%);
+
+    font-size:0.9em;
     font-weight: bold;
 }
 
@@ -121,6 +118,7 @@ input{
 }
 
 i{
+    text-align: center;
     margin: 10px;
     background-color: #16161670;
     color: var(--cor02);

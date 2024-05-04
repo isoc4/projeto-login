@@ -1,5 +1,43 @@
 @charset "UTF-8";
 
+:root{
+
+    --cor01: #ff7361;
+    --cor02: #f19100;
+    --cor03: #212121;
+    --cor04: #81b7b8;
+    --cor05: #3B618F;
+    --cor06: #2f4858c2;
+    --cor07: #233953;
+
+}
+
 body{
     background-color: green;
+}
+
+i{
+    margin-left: -130px;
+}
+
+#imagemtime{
+    display: none;
+}
+
+#caixalogin{
+    position: absolute;
+    left: 50%;
+    
+    background-color: var(--cor06);
+    width: 950px;
+    height: 65%;
+    border: 4px solid var(--cor02);
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.404);
+}
+
+#imagemfundo{
+    background-image: url('../imagem/sign-in-pana.png');
+    margin-top: 80px;
+    width: 330px;
+    height: 270px;
 }
