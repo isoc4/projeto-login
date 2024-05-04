@@ -35,12 +35,12 @@ body, html{
     transform: translate(-50%, -50%);
 
     background-color: var(--cor06);
-    width: 300px;
-    height: 450px;
+    width: 250px;
+    height: 500px;
     border-radius: 50px 50px 50px 0px;
     border: 3px solid #161616;
     box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.404);
-    padding: 15px;
+    padding: 3px;
     transition: width 500ms;
 }
 
@@ -157,4 +157,26 @@ i{
 
 #senha > a:hover{
     text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+
+    #divemojitexto{
+        margin-bottom: 20%;
+    }
+
+    .caixadeinput{
+        margin: 0;
+        margin-bottom: 20px;
+        width: 240px;
+    }
+
+    #entrar > input{
+        margin-left: 46px;
+    }
+
+    #pcadastro{
+        top: 94%;
+    }
+    
 }
