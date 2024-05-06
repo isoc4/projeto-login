@@ -17,7 +17,7 @@ body{
 }
 
 i{
-    margin-left: -130px;
+    margin-left: -180px;
 }
 
 #imagemtime{
@@ -40,4 +40,8 @@ i{
     margin-top: 80px;
     width: 330px;
     height: 270px;
+}
+
+.caixadeinput{
+    text-align: center;
 }

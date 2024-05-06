@@ -113,7 +113,7 @@ input:focus{
     margin: auto;
     background-color: var(--cor07);
     border-radius: 20px;
-    text-align: center;
+    text-align: start;
     margin-bottom: 20px;
 }
 
@@ -152,6 +152,7 @@ i{
     font-size: 0.6em;
     font-weight: bold;
     text-decoration: none;
+    margin-left: 20px;
     color: var(--cor05);
 }
 
