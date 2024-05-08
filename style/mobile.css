@@ -22,7 +22,7 @@
 body, html{
     width: 100vw;
     height: 100vh;
-    background-color: var(--cor02);
+    background-color: var(--cor05);
     background-image: none;
     background-position: center center;
     background-size: cover;
@@ -61,10 +61,11 @@ body, html{
 
 #emoji{
     margin: auto;
+    padding-top: 2.5px;
     text-align: center;
     box-shadow: -4px 4px 5px #6b3029e1;
     background-color: #161616b4;
-    font-size: 1.8em;
+    font-size: 1.4em;
     border-radius: 50%;
     border: 4px solid #b95446;
     width: 50px;
@@ -91,13 +92,13 @@ input:focus{
 }
 
 #pcadastro{
-    position: absolute;
-    left: 50%;
-    top: 90%;
-    transform: translate(-50%, 0%);
-
+    display: inline-block;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 620px;
     font-size:0.9em;
     font-weight: bold;
+    width: 220px;
 }
 
 #pcadastro > a{
@@ -181,3 +182,10 @@ i{
     }
     
 }
+
+/* 
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, 100%);
+*/
