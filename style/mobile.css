@@ -36,7 +36,7 @@ body, html{
 
     background-color: var(--cor06);
     width: 250px;
-    height: 500px;
+    height: 449px;
     border-radius: 50px 50px 50px 0px;
     border: 3px solid #161616;
     box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.404);
@@ -95,8 +95,8 @@ input:focus{
     display: inline-block;
     margin-left: 50%;
     transform: translate(-50%);
-    margin-top: 620px;
-    font-size:0.9em;
+    margin-bottom: 0px;
+    font-size:0.7em;
     font-weight: bold;
     width: 220px;
 }
@@ -125,10 +125,6 @@ i{
     color: var(--cor02);
     width: 60px;
     border-radius: 20px;
-}
-
-#nome_de_usuario{
-    margin-top: 5px;
 }
 
 #entrar > input{
@@ -161,10 +157,14 @@ i{
     text-decoration: underline;
 }
 
+#pcadastro2{
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
 
     #divemojitexto{
-        margin-bottom: 20%;
+        margin-bottom: 5%;
     }
 
     .caixadeinput{
@@ -176,16 +176,5 @@ i{
     #entrar > input{
         margin-left: 46px;
     }
-
-    #pcadastro{
-        top: 94%;
-    }
     
 }
-
-/* 
-    position: absolute;
-    left: 50%;
-    top: 90%;
-    transform: translate(-50%, 100%);
-*/
