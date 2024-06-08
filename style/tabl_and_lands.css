@@ -5,10 +5,9 @@
     --cor01: #ff7361;
     --cor02: #f19100;
     --cor03: #212121;
-    --cor04: #81b7b8;
-    --cor05: #3B618F;
-    --cor06: #2f4858c2;
-    --cor07: #233953;
+    --cor04: #3B618F;
+    --cor05: #2f4858c2;
+    --cor06: #233953;
 
 }
 
@@ -43,6 +42,8 @@ input{
     border-radius: 50px 50px 50px 50px;
     border: none;
     padding: 0px;
+    background-color: var(--cor05);
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.404);
 }
 
 #divemojitexto{
@@ -64,29 +65,23 @@ input{
 
 #entrar > input{
     margin-top: 9px;
-    padding: 2%;
+    padding: 8px;
     width: 150px;
 }
 
-#senha{
-    margin: 0px;
-}
+#senha{margin: 0px;}
 
-#senha > a{
-    margin-left: 200px;
-}
+#senha > a{margin-left: 200px;}
 
-#isen{
-    margin-bottom: 0px;
-}
+#isen{margin-bottom: 0px;}
 
-#pcadastro{
-    display: none;
-}
+#pcadastro{display: none;}
 
 #pcadastro2{
-    display: block;
-    font-size: 0.8em;
+    margin-left: 10px;
+
+    display: inline;
+    font-size: 0.75em;
     font-weight: bold;
     padding-top: 58px;
 }
@@ -96,6 +91,4 @@ input{
     text-decoration: none;
 }
 
-#pcadastro2 > a:hover{
-    text-decoration: underline;
-}
+#pcadastro2 > a:hover{text-decoration: underline;}

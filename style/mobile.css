@@ -12,17 +12,16 @@
     --cor01: #ff7361;
     --cor02: #f19100;
     --cor03: #212121;
-    --cor04: #81b7b8;
-    --cor05: #3B618F;
-    --cor06: #2f4858c2;
-    --cor07: #233953;
+    --cor04: #3B618F;
+    --cor05: #2f4858c2;
+    --cor06: #233953;
 
 }
 
 body, html{
     width: 100vw;
     height: 100vh;
-    background-color: var(--cor05);
+    background-color: var(--cor03);
     background-image: none;
     background-position: center center;
     background-size: cover;
@@ -34,18 +33,14 @@ body, html{
     top: 50vh;
     transform: translate(-50%, -50%);
 
-    background-color: var(--cor06);
     width: 250px;
-    height: 460px;
     border-radius: 50px 50px 50px 0px;
-    border: 3px solid #161616;
-    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.404);
-    padding: 3px;
+    padding: 4px;
     transition: width 500ms;
 }
 
 #caixalogin h1{
-    color: var(--cor03);
+    color: var(--cor04);
     text-align: center;
     text-shadow: 3px 3px 4px #212121e1;
     font-size: 2em;
@@ -74,7 +69,6 @@ body, html{
 
 form{
     margin: auto;
-    width: 270px;
     border-radius: 15px;
 }
 
@@ -92,10 +86,10 @@ input:focus{
 }
 
 #pcadastro{
-    display: inline-block;
-    margin-left: 50%;
-    transform: translate(-50%);
-    margin-bottom: 0px;
+    position: relative;
+    left: 30px;
+
+    display: inline;
     font-size:0.7em;
     font-weight: bold;
     width: 220px;
@@ -112,7 +106,7 @@ input:focus{
 
 .caixadeinput{
     margin: auto;
-    background-color: var(--cor07);
+    background-color: var(--cor06);
     border-radius: 20px;
     text-align: start;
     margin-bottom: 20px;
@@ -150,7 +144,7 @@ i{
     font-weight: bold;
     text-decoration: none;
     margin-left: 20px;
-    color: var(--cor05);
+    color: var(--cor04);
 }
 
 #senha > a:hover{
