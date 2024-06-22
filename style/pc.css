@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+body, html{
+    background: url('../imagem/background1.jpg') no-repeat;
+    background-size: cover;
+}
+
 #caixalogin{
     position: absolute;
     left: 61vw;
@@ -10,6 +15,7 @@
     width: 760px;
     background-color: transparent;
     box-shadow: none;
+    backdrop-filter: none;
 }
 
 #imagemtime{
